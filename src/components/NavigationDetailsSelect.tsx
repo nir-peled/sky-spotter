@@ -31,7 +31,7 @@ export default function NavigationDetailsSelect({
 	search,
 }: Props) {
 	return (
-		<div className="flex flex-row align-center">
+		<div className="flex flex-row align-center m-2">
 			<AirportSearchSelect title="Origin" set_airport={set_origin} />
 			<AirportSearchSelect title="Destination" set_airport={set_destination} />
 			<DateSelector title="Departure" set_date={set_departure} />
@@ -39,7 +39,7 @@ export default function NavigationDetailsSelect({
 			<PersonCounter title="Adults" value={adults} set_value={set_adults} />
 			<PersonCounter title="Children" value={children} set_value={set_children} />
 			<PersonCounter title="Infants" value={infants} set_value={set_infants} />
-			<button className="btn" onClick={search}>
+			<button className="btn mt-6" onClick={search}>
 				Search
 			</button>
 		</div>

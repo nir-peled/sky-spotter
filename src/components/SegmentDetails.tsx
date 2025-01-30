@@ -13,7 +13,7 @@ export default function SegmentDetails({ segment }: Props) {
 			<span className="text-base">
 				{departure_time} · {segment.origin}
 			</span>
-			<span className="text-sm text-gray-200">
+			<span className="text-sm text-gray-600">
 				{duration_to_text(segment.duration_minutes)}
 			</span>
 			<span className="text-base">
