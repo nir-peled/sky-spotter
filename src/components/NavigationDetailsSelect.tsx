@@ -31,7 +31,7 @@ export default function NavigationDetailsSelect({
 	search,
 }: Props) {
 	return (
-		<div className="flex flex-row align-center m-2">
+		<div className="flex flex-col lg:flex-row align-center m-2">
 			<AirportSearchSelect title="Origin" set_airport={set_origin} />
 			<AirportSearchSelect title="Destination" set_airport={set_destination} />
 			<DateSelector title="Departure" set_date={set_departure} />
